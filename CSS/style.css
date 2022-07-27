@@ -1,0 +1,153 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 780px;
+}
+
+
+.imagem-de-fundo img {
+    position: absolute;
+    width: 1175px;
+    height: 780px;
+    left: 376px;
+    top: 0px;
+}
+
+.conteudo {
+    position: absolute;
+    width: 720px;
+    background: var(--body-bg-color);
+    height: 780px;
+}
+
+.logo img {
+    position: absolute;
+    width: 389px;
+    height: 94px;
+    left: 30px;
+    top: 50px;
+}
+
+.descricao-da-pagina {
+    position: absolute;
+    width: 647px;
+    height: 192px;
+    top: 236px;
+    left: 36px;
+}
+
+.descricao-da-pagina h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--title-color);
+}
+
+.primeiro-paragrafo {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 8.56px 0 9px 0px;
+
+    color: var(--text-color);
+}
+
+.segundo-paragrafo {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: var(--text-color);
+}
+
+.formulario-email {
+    position: absolute;
+    width: 798px;
+    height: 84px;
+    left: 36px;
+    top: 388px;
+}
+
+.formulario-email label {
+    display: block;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+
+    color: var(--form-color);
+}
+
+.formulario-email input {
+    width: 750px;
+    height: 48px;   
+    
+    border: none;
+    border-left: var(--title-color) solid 5px;;
+}
+
+.formulario-email ::placeholder {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 15px;
+    
+    color: var(--form-color);
+}
+
+.formulario-email button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: var(--bg-button-color); 
+    cursor: pointer;
+    
+}
+
+.link {
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 36px;
+    top: 522px;
+}    
+
+.link-texto {
+    position: absolute;
+    text-decoration: none;
+    color: var(--bg-button-color);
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+}
+
+.link-imagem {
+    position: absolute;
+    left: 134px;
+    top: -2px;
+}
+
+
+
